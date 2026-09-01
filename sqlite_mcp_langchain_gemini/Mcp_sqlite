@@ -1,0 +1,14 @@
+Step1: pip install uv
+
+Step2:Setting Up the Project Directory
+
+Step3:
+uv init sqlite_mcp_langchain_gemini
+cd sqlite_mcp_langchain_gemini
+
+Step4:
+uv add mcp==1.21.0 langchain==1.0.5 langchain-mcp-adapters==0.1.12 langgraph==1.0.2 langchain-google-genai>=3.1.0
+
+Step5:
+
+git clone https://github.com/modelcontextprotocol/servers-archived
